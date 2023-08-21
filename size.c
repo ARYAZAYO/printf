@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_size - Calculates the size to cast the argument
- * Created: Keith and Chris-Emma
+ * get_size - Calculates and gets the size to cast the argument
+ * Created: Keith Aryazayo and Chris-Emma
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  *
