@@ -3,7 +3,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
- * Created: Keith and Chris-Emma
+ * Created: Keith Aryazayo and Chris-Emma
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -39,7 +39,7 @@ int print_unsigned(va_list types, char buffer[],
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
  * print_octal - Prints an unsigned number in octal notation
- * @types: Lista of arguments
+ * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -81,7 +81,7 @@ int print_octal(va_list types, char buffer[],
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
- * @types: Lista of arguments
+ * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -99,12 +99,12 @@ int print_hexadecimal(va_list types, char buffer[],
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
- * @types: Lista of arguments
+ * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specification
  * Return: Number of chars printed
  */
 int print_hexa_upper(va_list types, char buffer[],
@@ -117,14 +117,14 @@ int print_hexa_upper(va_list types, char buffer[],
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
  * print_hexa - Prints a hexadecimal number in lower or upper
- * @types: Lista of arguments
+ * @types: List a of arguments
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @flag_ch: Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specification
  * @size: Size specification
  * Return: Number of chars printed
  */
